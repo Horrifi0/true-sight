@@ -24,10 +24,10 @@ A lightweight client-side Fabric mod that renders invisible players as fully vis
 Requirements: JDK 21, Internet access for Gradle.
 
 Windows:
-- .\gradlew clean build -x test
+- .\gradlew build
 
 macOS/Linux:
-- ./gradlew clean build -x test
+- ./gradlew build
 
 Output:
 - [build/libs/true-sight-1.0.0.jar](build/libs/true-sight-1.0.0.jar:1)
@@ -60,7 +60,7 @@ Output:
 - See [.gitignore](.gitignore:1) for the complete list. Build outputs and dev folders have been removed from the repo working tree.
 
 ## Modrinth/GitHub release checklist
-- Build a fresh jar: `.\gradlew clean build -x test`
+- Build a fresh jar: `.\gradlew build`
 - GitHub:
   - Create a tag (e.g., v1.0.0).
   - Draft a release and upload [build/libs/true-sight-1.0.0.jar](build/libs/true-sight-1.0.0.jar:1).
