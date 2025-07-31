@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "see.invisible.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"PlayerInvisibilityBypassMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
